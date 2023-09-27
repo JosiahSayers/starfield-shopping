@@ -1,0 +1,1100 @@
+[
+  {
+    "name": "Adaptive Frame",
+    "shortName": "",
+    "rarity": "Common",
+    "type": "Manufactured",
+    "mass": "1.60",
+    "value": "24",
+    "valueToMass": "15"
+  },
+  {
+    "name": "Adhesive",
+    "shortName": "",
+    "rarity": "Rare",
+    "type": "Organic",
+    "mass": "0.50",
+    "value": "12",
+    "valueToMass": "24"
+  },
+  {
+    "name": "Aldumite",
+    "shortName": "Ad",
+    "rarity": "Unique",
+    "type": "Inorganic",
+    "mass": "1.90",
+    "value": "84",
+    "valueToMass": "44"
+  },
+  {
+    "name": "Aldumite Drilling Rig",
+    "shortName": "",
+    "rarity": "Rare",
+    "type": "Manufactured",
+    "mass": "7.00",
+    "value": "421",
+    "valueToMass": "60"
+  },
+  {
+    "name": "Alkanes",
+    "shortName": "HnCn",
+    "rarity": "Uncommon",
+    "type": "Inorganic",
+    "mass": "0.60",
+    "value": "13",
+    "valueToMass": "22"
+  },
+  {
+    "name": "Aluminum",
+    "shortName": "Al",
+    "rarity": "Common",
+    "type": "Inorganic",
+    "mass": "0.50",
+    "value": "7",
+    "valueToMass": "14"
+  },
+  {
+    "name": "Amino Acids",
+    "shortName": "",
+    "rarity": "Rare",
+    "type": "Organic",
+    "mass": "0.50",
+    "value": "10",
+    "valueToMass": "20"
+  },
+  {
+    "name": "Analgesic",
+    "shortName": "",
+    "rarity": "Rare",
+    "type": "Organic",
+    "mass": "0.50",
+    "value": "12",
+    "valueToMass": "24"
+  },
+  {
+    "name": "Antimicrobial",
+    "shortName": "",
+    "rarity": "Uncommon",
+    "type": "Organic",
+    "mass": "0.50",
+    "value": "10",
+    "valueToMass": "20"
+  },
+  {
+    "name": "Antimony",
+    "shortName": "Sb",
+    "rarity": "Exotic",
+    "type": "Inorganic",
+    "mass": "0.80",
+    "value": "30",
+    "valueToMass": "38"
+  },
+  {
+    "name": "Aqueous Hematite",
+    "shortName": "Aq",
+    "rarity": "Unique",
+    "type": "Inorganic",
+    "mass": "1.30",
+    "value": "56",
+    "valueToMass": "43"
+  },
+  {
+    "name": "Argon",
+    "shortName": "Ar",
+    "rarity": "Common",
+    "type": "Inorganic",
+    "mass": "0.50",
+    "value": "5",
+    "valueToMass": "10"
+  },
+  {
+    "name": "Aromatic",
+    "shortName": "",
+    "rarity": "Rare",
+    "type": "Organic",
+    "mass": "0.50",
+    "value": "11",
+    "valueToMass": "22"
+  },
+  {
+    "name": "Austenitic Manifold",
+    "shortName": "",
+    "rarity": "Common",
+    "type": "Manufactured",
+    "mass": "4.30",
+    "value": "79",
+    "valueToMass": "18"
+  },
+  {
+    "name": "Benzene",
+    "shortName": "C₆Hn",
+    "rarity": "Uncommon",
+    "type": "Inorganic",
+    "mass": "0.60",
+    "value": "19",
+    "valueToMass": "32"
+  },
+  {
+    "name": "Beryllium",
+    "shortName": "Be",
+    "rarity": "Uncommon",
+    "type": "Inorganic",
+    "mass": "0.50",
+    "value": "12",
+    "valueToMass": "24"
+  },
+  {
+    "name": "Biosuppressant",
+    "shortName": "",
+    "rarity": "Exotic",
+    "type": "Organic",
+    "mass": "0.50",
+    "value": "16",
+    "valueToMass": "32"
+  },
+  {
+    "name": "Caelumite",
+    "shortName": "Ct",
+    "rarity": "Unique",
+    "type": "Inorganic",
+    "mass": "0.30",
+    "value": "264",
+    "valueToMass": "880"
+  },
+  {
+    "name": "Caesium",
+    "shortName": "Cs",
+    "rarity": "Exotic",
+    "type": "Inorganic",
+    "mass": "0.80",
+    "value": "25",
+    "valueToMass": "31"
+  },
+  {
+    "name": "Carboxylic Acids",
+    "shortName": "R-COOH",
+    "rarity": "Rare",
+    "type": "Inorganic",
+    "mass": "0.80",
+    "value": "12",
+    "valueToMass": "15"
+  },
+  {
+    "name": "Chlorine",
+    "shortName": "Cl",
+    "rarity": "Common",
+    "type": "Inorganic",
+    "mass": "0.50",
+    "value": "6",
+    "valueToMass": "12"
+  },
+  {
+    "name": "Chlorosilanes",
+    "shortName": "SiH₃Cl",
+    "rarity": "Uncommon",
+    "type": "Inorganic",
+    "mass": "0.60",
+    "value": "14",
+    "valueToMass": "23"
+  },
+  {
+    "name": "Cobalt",
+    "shortName": "Co",
+    "rarity": "Uncommon",
+    "type": "Inorganic",
+    "mass": "0.60",
+    "value": "12",
+    "valueToMass": "20"
+  },
+  {
+    "name": "Comm Relay",
+    "shortName": "",
+    "rarity": "Common",
+    "type": "Manufactured",
+    "mass": "3.50",
+    "value": "117",
+    "valueToMass": "33"
+  },
+  {
+    "name": "Control Rod",
+    "shortName": "",
+    "rarity": "Uncommon",
+    "type": "Manufactured",
+    "mass": "4.50",
+    "value": "180",
+    "valueToMass": "40"
+  },
+  {
+    "name": "Copper",
+    "shortName": "Cu",
+    "rarity": "Common",
+    "type": "Inorganic",
+    "mass": "0.60",
+    "value": "10",
+    "valueToMass": "17"
+  },
+  {
+    "name": "Cosmetic",
+    "shortName": "",
+    "rarity": "Uncommon",
+    "type": "Organic",
+    "mass": "0.50",
+    "value": "8",
+    "valueToMass": "16"
+  },
+  {
+    "name": "Deformable Nozzle",
+    "shortName": "",
+    "rarity": "Uncommon",
+    "type": "Manufactured",
+    "mass": "0.00",
+    "value": "0",
+    "valueToMass": "0"
+  },
+  {
+    "name": "Drilling Rig",
+    "shortName": "",
+    "rarity": "Uncommon",
+    "type": "Manufactured",
+    "mass": "5.00",
+    "value": "143",
+    "valueToMass": "29"
+  },
+  {
+    "name": "Dysprosium",
+    "shortName": "Dy",
+    "rarity": "Exotic",
+    "type": "Inorganic",
+    "mass": "1.40",
+    "value": "56",
+    "valueToMass": "40"
+  },
+  {
+    "name": "Electron Pump",
+    "shortName": "",
+    "rarity": "Rare",
+    "type": "Manufactured",
+    "mass": "0.00",
+    "value": "0",
+    "valueToMass": "0"
+  },
+  {
+    "name": "Europium",
+    "shortName": "Eu",
+    "rarity": "Exotic",
+    "type": "Inorganic",
+    "mass": "1.00",
+    "value": "40",
+    "valueToMass": "40"
+  },
+  {
+    "name": "Fiber",
+    "shortName": "",
+    "rarity": "Common",
+    "type": "Organic",
+    "mass": "0.50",
+    "value": "4",
+    "valueToMass": "8"
+  },
+  {
+    "name": "Fluorine",
+    "shortName": "F",
+    "rarity": "Uncommon",
+    "type": "Inorganic",
+    "mass": "0.50",
+    "value": "12",
+    "valueToMass": "24"
+  },
+  {
+    "name": "Gastronomic Delight",
+    "shortName": "",
+    "rarity": "Unique",
+    "type": "Organic",
+    "mass": "1.50",
+    "value": "66",
+    "valueToMass": "44"
+  },
+  {
+    "name": "Gold",
+    "shortName": "Au",
+    "rarity": "Rare",
+    "type": "Inorganic",
+    "mass": "0.80",
+    "value": "24",
+    "valueToMass": "30"
+  },
+  {
+    "name": "Gravitic Laminate",
+    "shortName": "",
+    "rarity": "Uncommon",
+    "type": "Manufactured",
+    "mass": "0.00",
+    "value": "0",
+    "valueToMass": "0"
+  },
+  {
+    "name": "Gravity Inducer",
+    "shortName": "",
+    "rarity": "Rare",
+    "type": "Manufactured",
+    "mass": "0.00",
+    "value": "0",
+    "valueToMass": "0"
+  },
+  {
+    "name": "Hallucinogen",
+    "shortName": "",
+    "rarity": "Rare",
+    "type": "Organic",
+    "mass": "0.50",
+    "value": "14",
+    "valueToMass": "28"
+  },
+  {
+    "name": "Helical Equalizer",
+    "shortName": "",
+    "rarity": "Rare",
+    "type": "Manufactured",
+    "mass": "0.00",
+    "value": "0",
+    "valueToMass": "0"
+  },
+  {
+    "name": "Helium-3",
+    "shortName": "He-3",
+    "rarity": "Uncommon",
+    "type": "Inorganic",
+    "mass": "0.30",
+    "value": "14",
+    "valueToMass": "47"
+  },
+  {
+    "name": "High-Tensile Spidroin",
+    "shortName": "",
+    "rarity": "Unique",
+    "type": "Organic",
+    "mass": "1.30",
+    "value": "62",
+    "valueToMass": "48"
+  },
+  {
+    "name": "Hypercatalyst",
+    "shortName": "",
+    "rarity": "Exotic",
+    "type": "Organic",
+    "mass": "0.50",
+    "value": "18",
+    "valueToMass": "36"
+  },
+  {
+    "name": "Immunostimulant",
+    "shortName": "",
+    "rarity": "Unique",
+    "type": "Organic",
+    "mass": "1.30",
+    "value": "58",
+    "valueToMass": "45"
+  },
+  {
+    "name": "Indicite",
+    "shortName": "Ie",
+    "rarity": "Unique",
+    "type": "Inorganic",
+    "mass": "2.30",
+    "value": "108",
+    "valueToMass": "47"
+  },
+  {
+    "name": "Indicite Wafer",
+    "shortName": "",
+    "rarity": "Rare",
+    "type": "Manufactured",
+    "mass": "4.00",
+    "value": "243",
+    "valueToMass": "61"
+  },
+  {
+    "name": "Ionic Liquids",
+    "shortName": "IL",
+    "rarity": "Exotic",
+    "type": "Inorganic",
+    "mass": "0.80",
+    "value": "23",
+    "valueToMass": "29"
+  },
+  {
+    "name": "Iridium",
+    "shortName": "Ir",
+    "rarity": "Uncommon",
+    "type": "Inorganic",
+    "mass": "0.70",
+    "value": "14",
+    "valueToMass": "20"
+  },
+  {
+    "name": "Iron",
+    "shortName": "Fe",
+    "rarity": "Common",
+    "type": "Inorganic",
+    "mass": "0.60",
+    "value": "8",
+    "valueToMass": "13"
+  },
+  {
+    "name": "Isocentered Magnet",
+    "shortName": "",
+    "rarity": "Common",
+    "type": "Manufactured",
+    "mass": "1.80",
+    "value": "36",
+    "valueToMass": "20"
+  },
+  {
+    "name": "Isotopic Coolant",
+    "shortName": "",
+    "rarity": "Common",
+    "type": "Manufactured",
+    "mass": "0.80",
+    "value": "25",
+    "valueToMass": "31"
+  },
+  {
+    "name": "Lead",
+    "shortName": "Pb",
+    "rarity": "Common",
+    "type": "Inorganic",
+    "mass": "0.70",
+    "value": "10",
+    "valueToMass": "14"
+  },
+  {
+    "name": "Lithium",
+    "shortName": "Li",
+    "rarity": "Rare",
+    "type": "Inorganic",
+    "mass": "0.50",
+    "value": "14",
+    "valueToMass": "28"
+  },
+  {
+    "name": "Lubricant",
+    "shortName": "",
+    "rarity": "Exotic",
+    "type": "Organic",
+    "mass": "0.50",
+    "value": "18",
+    "valueToMass": "36"
+  },
+  {
+    "name": "Luxury Textile",
+    "shortName": "",
+    "rarity": "Unique",
+    "type": "Organic",
+    "mass": "1.50",
+    "value": "58",
+    "valueToMass": "39"
+  },
+  {
+    "name": "Mag Pressure Tank",
+    "shortName": "",
+    "rarity": "Common",
+    "type": "Manufactured",
+    "mass": "1.50",
+    "value": "25",
+    "valueToMass": "17"
+  },
+  {
+    "name": "Membrane",
+    "shortName": "",
+    "rarity": "Uncommon",
+    "type": "Organic",
+    "mass": "0.50",
+    "value": "9",
+    "valueToMass": "18"
+  },
+  {
+    "name": "Memory Substrate",
+    "shortName": "",
+    "rarity": "Unique",
+    "type": "Organic",
+    "mass": "1.40",
+    "value": "65",
+    "valueToMass": "46"
+  },
+  {
+    "name": "Mercury",
+    "shortName": "Hg",
+    "rarity": "Rare",
+    "type": "Inorganic",
+    "mass": "0.80",
+    "value": "22",
+    "valueToMass": "28"
+  },
+  {
+    "name": "Metabolic Agent",
+    "shortName": "",
+    "rarity": "Common",
+    "type": "Organic",
+    "mass": "0.50",
+    "value": "9",
+    "valueToMass": "18"
+  },
+  {
+    "name": "Microsecond Regulator",
+    "shortName": "",
+    "rarity": "Rare",
+    "type": "Manufactured",
+    "mass": "4.30",
+    "value": "212",
+    "valueToMass": "49"
+  },
+  {
+    "name": "Molecular Sieve",
+    "shortName": "",
+    "rarity": "Uncommon",
+    "type": "Manufactured",
+    "mass": "3.00",
+    "value": "91",
+    "valueToMass": "30"
+  },
+  {
+    "name": "Monopropellant",
+    "shortName": "",
+    "rarity": "Common",
+    "type": "Manufactured",
+    "mass": "3.50",
+    "value": "76",
+    "valueToMass": "22"
+  },
+  {
+    "name": "Neodymium",
+    "shortName": "Nd",
+    "rarity": "Rare",
+    "type": "Inorganic",
+    "mass": "0.80",
+    "value": "20",
+    "valueToMass": "25"
+  },
+  {
+    "name": "Neon",
+    "shortName": "Ne",
+    "rarity": "Exotic",
+    "type": "Inorganic",
+    "mass": "0.50",
+    "value": "16",
+    "valueToMass": "32"
+  },
+  {
+    "name": "Neurologic",
+    "shortName": "",
+    "rarity": "Unique",
+    "type": "Organic",
+    "mass": "1.40",
+    "value": "67",
+    "valueToMass": "48"
+  },
+  {
+    "name": "Neutral Capacitor",
+    "shortName": "",
+    "rarity": "Rare",
+    "type": "Manufactured",
+    "mass": "0.00",
+    "value": "0",
+    "valueToMass": "0"
+  },
+  {
+    "name": "Nickel",
+    "shortName": "Ni",
+    "rarity": "Common",
+    "type": "Inorganic",
+    "mass": "0.60",
+    "value": "10",
+    "valueToMass": "17"
+  },
+  {
+    "name": "Nuclear Fuel Rod",
+    "shortName": "",
+    "rarity": "Uncommon",
+    "type": "Manufactured",
+    "mass": "5.00",
+    "value": "225",
+    "valueToMass": "45"
+  },
+  {
+    "name": "Nutrient",
+    "shortName": "",
+    "rarity": "Common",
+    "type": "Organic",
+    "mass": "0.50",
+    "value": "5",
+    "valueToMass": "10"
+  },
+  {
+    "name": "Ornamental Material",
+    "shortName": "",
+    "rarity": "Uncommon",
+    "type": "Organic",
+    "mass": "0.50",
+    "value": "11",
+    "valueToMass": "22"
+  },
+  {
+    "name": "Palladium",
+    "shortName": "Pd",
+    "rarity": "Exotic",
+    "type": "Inorganic",
+    "mass": "0.70",
+    "value": "25",
+    "valueToMass": "36"
+  },
+  {
+    "name": "Paramagnon Conductor",
+    "shortName": "",
+    "rarity": "Uncommon",
+    "type": "Manufactured",
+    "mass": "4.00",
+    "value": "153",
+    "valueToMass": "38"
+  },
+  {
+    "name": "Pigment",
+    "shortName": "",
+    "rarity": "Uncommon",
+    "type": "Organic",
+    "mass": "0.50",
+    "value": "10",
+    "valueToMass": "20"
+  },
+  {
+    "name": "Plasma Igniter",
+    "shortName": "",
+    "rarity": "Rare",
+    "type": "Manufactured",
+    "mass": "0.00",
+    "value": "0",
+    "valueToMass": "0"
+  },
+  {
+    "name": "Platinum",
+    "shortName": "Pt",
+    "rarity": "Rare",
+    "type": "Inorganic",
+    "mass": "0.80",
+    "value": "24",
+    "valueToMass": "30"
+  },
+  {
+    "name": "Plutonium",
+    "shortName": "Pu",
+    "rarity": "Exotic",
+    "type": "Inorganic",
+    "mass": "1.60",
+    "value": "64",
+    "valueToMass": "40"
+  },
+  {
+    "name": "Polymer",
+    "shortName": "",
+    "rarity": "Exotic",
+    "type": "Organic",
+    "mass": "0.50",
+    "value": "20",
+    "valueToMass": "40"
+  },
+  {
+    "name": "Polytextile",
+    "shortName": "",
+    "rarity": "Common",
+    "type": "Manufactured",
+    "mass": "2.00",
+    "value": "25",
+    "valueToMass": "13"
+  },
+  {
+    "name": "Positron Battery",
+    "shortName": "",
+    "rarity": "Uncommon",
+    "type": "Manufactured",
+    "mass": "3.00",
+    "value": "133",
+    "valueToMass": "44"
+  },
+  {
+    "name": "Power Circuit",
+    "shortName": "",
+    "rarity": "Rare",
+    "type": "Manufactured",
+    "mass": "3.80",
+    "value": "195",
+    "valueToMass": "51"
+  },
+  {
+    "name": "Quark-Degenerate Tissues",
+    "shortName": "",
+    "rarity": "Unique",
+    "type": "Organic",
+    "mass": "0.30",
+    "value": "240",
+    "valueToMass": "800"
+  },
+  {
+    "name": "Quasi-neutralizer",
+    "shortName": "",
+    "rarity": "Rare",
+    "type": "Manufactured",
+    "mass": "0.00",
+    "value": "0",
+    "valueToMass": "0"
+  },
+  {
+    "name": "Reactive Gauge",
+    "shortName": "",
+    "rarity": "Common",
+    "type": "Manufactured",
+    "mass": "1.50",
+    "value": "25",
+    "valueToMass": "17"
+  },
+  {
+    "name": "Regenerative Illuminator",
+    "shortName": "",
+    "rarity": "Uncommon",
+    "type": "Manufactured",
+    "mass": "0.00",
+    "value": "0",
+    "valueToMass": "0"
+  },
+  {
+    "name": "Rothicite",
+    "shortName": "Rc",
+    "rarity": "Unique",
+    "type": "Inorganic",
+    "mass": "2.20",
+    "value": "106",
+    "valueToMass": "48"
+  },
+  {
+    "name": "Rothicite Magnet",
+    "shortName": "",
+    "rarity": "Rare",
+    "type": "Manufactured",
+    "mass": "4.60",
+    "value": "295",
+    "valueToMass": "64"
+  },
+  {
+    "name": "Sealant",
+    "shortName": "",
+    "rarity": "Common",
+    "type": "Organic",
+    "mass": "0.50",
+    "value": "6",
+    "valueToMass": "12"
+  },
+  {
+    "name": "Sedative",
+    "shortName": "",
+    "rarity": "Rare",
+    "type": "Organic",
+    "mass": "0.50",
+    "value": "12",
+    "valueToMass": "24"
+  },
+  {
+    "name": "Semimetal Wafer",
+    "shortName": "",
+    "rarity": "Uncommon",
+    "type": "Manufactured",
+    "mass": "3.50",
+    "value": "149",
+    "valueToMass": "43"
+  },
+  {
+    "name": "Silver",
+    "shortName": "Ag",
+    "rarity": "Uncommon",
+    "type": "Inorganic",
+    "mass": "0.60",
+    "value": "20",
+    "valueToMass": "33"
+  },
+  {
+    "name": "Solvent",
+    "shortName": "",
+    "rarity": "Exotic",
+    "type": "Organic",
+    "mass": "0.50",
+    "value": "19",
+    "valueToMass": "38"
+  },
+  {
+    "name": "Spice",
+    "shortName": "",
+    "rarity": "Uncommon",
+    "type": "Organic",
+    "mass": "0.50",
+    "value": "11",
+    "valueToMass": "22"
+  },
+  {
+    "name": "Sterile Nanotubes",
+    "shortName": "",
+    "rarity": "Uncommon",
+    "type": "Manufactured",
+    "mass": "3.00",
+    "value": "130",
+    "valueToMass": "43"
+  },
+  {
+    "name": "Stimulant",
+    "shortName": "",
+    "rarity": "Exotic",
+    "type": "Organic",
+    "mass": "0.50",
+    "value": "20",
+    "valueToMass": "40"
+  },
+  {
+    "name": "Stimulated Shielding",
+    "shortName": "",
+    "rarity": "Uncommon",
+    "type": "Manufactured",
+    "mass": "0.00",
+    "value": "0",
+    "valueToMass": "0"
+  },
+  {
+    "name": "Stochastic Emitter",
+    "shortName": "",
+    "rarity": "Rare",
+    "type": "Manufactured",
+    "mass": "0.00",
+    "value": "0",
+    "valueToMass": "0"
+  },
+  {
+    "name": "Structural Material",
+    "shortName": "",
+    "rarity": "Common",
+    "type": "Organic",
+    "mass": "0.50",
+    "value": "7",
+    "valueToMass": "14"
+  },
+  {
+    "name": "Substrate Molecule Sieve",
+    "shortName": "",
+    "rarity": "Rare",
+    "type": "Manufactured",
+    "mass": "4.50",
+    "value": "274",
+    "valueToMass": "61"
+  },
+  {
+    "name": "Supercooled Magnet",
+    "shortName": "",
+    "rarity": "Uncommon",
+    "type": "Manufactured",
+    "mass": "3.20",
+    "value": "111",
+    "valueToMass": "35"
+  },
+  {
+    "name": "Tantalum",
+    "shortName": "Ta",
+    "rarity": "Rare",
+    "type": "Inorganic",
+    "mass": "0.90",
+    "value": "23",
+    "valueToMass": "26"
+  },
+  {
+    "name": "Tasine",
+    "shortName": "Tsn",
+    "rarity": "Unique",
+    "type": "Inorganic",
+    "mass": "1.20",
+    "value": "52",
+    "valueToMass": "43"
+  },
+  {
+    "name": "Tasine Superconductor",
+    "shortName": "",
+    "rarity": "Rare",
+    "type": "Manufactured",
+    "mass": "5.00",
+    "value": "299",
+    "valueToMass": "60"
+  },
+  {
+    "name": "Tau Grade Rheostat",
+    "shortName": "",
+    "rarity": "Common",
+    "type": "Manufactured",
+    "mass": "2.60",
+    "value": "82",
+    "valueToMass": "32"
+  },
+  {
+    "name": "Tetrafluorides",
+    "shortName": "xF4",
+    "rarity": "Rare",
+    "type": "Inorganic",
+    "mass": "0.70",
+    "value": "18",
+    "valueToMass": "26"
+  },
+  {
+    "name": "Thread-Logic Circuit",
+    "shortName": "",
+    "rarity": "Rare",
+    "type": "Manufactured",
+    "mass": "0.00",
+    "value": "0",
+    "valueToMass": "0"
+  },
+  {
+    "name": "Titanium",
+    "shortName": "Ti",
+    "rarity": "Rare",
+    "type": "Inorganic",
+    "mass": "0.50",
+    "value": "12",
+    "valueToMass": "24"
+  },
+  {
+    "name": "Toxin",
+    "shortName": "",
+    "rarity": "Common",
+    "type": "Organic",
+    "mass": "0.50",
+    "value": "8",
+    "valueToMass": "16"
+  },
+  {
+    "name": "Tungsten",
+    "shortName": "W",
+    "rarity": "Common",
+    "type": "Inorganic",
+    "mass": "0.70",
+    "value": "16",
+    "valueToMass": "23"
+  },
+  {
+    "name": "Uranium",
+    "shortName": "U",
+    "rarity": "Common",
+    "type": "Inorganic",
+    "mass": "0.70",
+    "value": "14",
+    "valueToMass": "20"
+  },
+  {
+    "name": "Vac Grade Explosive",
+    "shortName": "",
+    "rarity": "Common",
+    "type": "Manufactured",
+    "mass": "3.00",
+    "value": "240",
+    "valueToMass": "80"
+  },
+  {
+    "name": "Vanadium",
+    "shortName": "V",
+    "rarity": "Rare",
+    "type": "Inorganic",
+    "mass": "0.70",
+    "value": "24",
+    "valueToMass": "34"
+  },
+  {
+    "name": "Veryl",
+    "shortName": "Vr",
+    "rarity": "Unique",
+    "type": "Inorganic",
+    "mass": "0.90",
+    "value": "40",
+    "valueToMass": "44"
+  },
+  {
+    "name": "Veryl Explosive",
+    "shortName": "",
+    "rarity": "Rare",
+    "type": "Manufactured",
+    "mass": "4.25",
+    "value": "820",
+    "valueToMass": "193"
+  },
+  {
+    "name": "Veryl-Treated manifold",
+    "shortName": "",
+    "rarity": "Rare",
+    "type": "Manufactured",
+    "mass": "5.40",
+    "value": "295",
+    "valueToMass": "55"
+  },
+  {
+    "name": "Vytinium",
+    "shortName": "Vy",
+    "rarity": "Unique",
+    "type": "Inorganic",
+    "mass": "2.50",
+    "value": "116",
+    "valueToMass": "46"
+  },
+  {
+    "name": "Vytinium Fuel Rod",
+    "shortName": "",
+    "rarity": "Rare",
+    "type": "Manufactured",
+    "mass": "11.00",
+    "value": "836",
+    "valueToMass": "76"
+  },
+  {
+    "name": "Water",
+    "shortName": "H₂O",
+    "rarity": "Common",
+    "type": "Inorganic",
+    "mass": "0.50",
+    "value": "4",
+    "valueToMass": "8"
+  },
+  {
+    "name": "Xenon",
+    "shortName": "Xe",
+    "rarity": "Exotic",
+    "type": "Inorganic",
+    "mass": "0.80",
+    "value": "27",
+    "valueToMass": "34"
+  },
+  {
+    "name": "Ytterbium",
+    "shortName": "Yb",
+    "rarity": "Exotic",
+    "type": "Inorganic",
+    "mass": "1.20",
+    "value": "38",
+    "valueToMass": "32"
+  },
+  {
+    "name": "Zero Wire",
+    "shortName": "",
+    "rarity": "Common",
+    "type": "Manufactured",
+    "mass": "1.70",
+    "value": "52",
+    "valueToMass": "31"
+  },
+  {
+    "name": "Zero-G Gimbal",
+    "shortName": "",
+    "rarity": "Uncommon",
+    "type": "Manufactured",
+    "mass": "2.80",
+    "value": "93",
+    "valueToMass": "33"
+  }
+]
