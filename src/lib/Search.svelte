@@ -1,6 +1,6 @@
 <script lang="ts">
   import resources from "../data/resources.json";
-  import { cart } from "./stores/cart";
+  import { cart, type Resource } from "./stores/cart";
 
   let wrapperRef: HTMLDivElement;
   let open = false;
@@ -17,8 +17,8 @@
       : true
   );
 
-  function handleSelect(name: string) {
-    cart.add({ name, quantity: 1 });
+  function handleSelect(resource: Resource) {
+    cart.add({ ...resource, quantity: 1 });
     searchValue = "";
     (document.activeElement as any)?.blur?.();
   }
@@ -36,9 +36,11 @@
     class="dropdown-content bg-base-200 top-14 max-h-96 overflow-auto flex-col rounded-md z-10"
   >
     <ul class="menu menu-compact" style={`width: ${wrapperRef?.clientWidth}px`}>
-      {#each filteredList as { name }}
+      {#each filteredList as resource}
         <li class="border-b border-b-base-content/10 w-full">
-          <button on:click={() => handleSelect(name)}>{name}</button>
+          <button on:click={() => handleSelect(resource)}
+            >{resource.name}</button
+          >
         </li>
       {/each}
     </ul>

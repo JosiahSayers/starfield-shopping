@@ -1,9 +1,15 @@
 <script lang="ts">
   import Navbar from "./lib/Navbar.svelte";
   import AppTheme from "./lib/AppTheme.svelte";
-  import CartItem from "./lib/CartItem.svelte";
   import Search from "./lib/Search.svelte";
+  import Cart from "./lib/Cart.svelte";
+  import CartTotal from "./lib/CartTotal.svelte";
+  import { onMount } from "svelte";
   import { cart } from "./lib/stores/cart";
+
+  onMount(() => {
+    cart.validate();
+  });
 </script>
 
 <AppTheme />
@@ -11,9 +17,6 @@
 <Navbar />
 <div class="p-6">
   <Search />
-  <ul class="pt-10">
-    {#each $cart as item}
-      <CartItem {item} />
-    {/each}
-  </ul>
+  <Cart />
+  <CartTotal />
 </div>

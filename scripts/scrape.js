@@ -20,9 +20,9 @@ async function scrape() {
         shortName: dataNodes[1]?.textContent,
         rarity: dataNodes[2]?.textContent,
         type: dataNodes[3]?.textContent,
-        mass: dataNodes[4]?.textContent,
-        value: dataNodes[5]?.textContent,
-        valueToMass: dataNodes[6]?.textContent
+        mass: Number(dataNodes[4]?.textContent),
+        value: Number(dataNodes[5]?.textContent),
+        valueToMass: Number(dataNodes[6]?.textContent)
       };
     })
     .filter(resource => Object.values(resource).some(value => !!value));
