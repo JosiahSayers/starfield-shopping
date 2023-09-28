@@ -36,7 +36,13 @@
   <div
     class="dropdown-content bg-base-200 top-14 max-h-96 overflow-auto flex-col rounded-md z-10"
   >
-    <ul class="menu menu-compact" style={`width: ${wrapperRef?.clientWidth}px`}>
+    <!-- svelte-ignore a11y-no-noninteractive-tabindex -->
+    <!-- Safari bug requires the tabindex to be set -->
+    <ul
+      tabindex="0"
+      class="menu menu-compact"
+      style={`width: ${wrapperRef?.clientWidth}px`}
+    >
       {#each filteredList as resource}
         <li class="border-b border-b-base-content/10 w-full">
           <button on:click={() => handleSelect(resource)}
