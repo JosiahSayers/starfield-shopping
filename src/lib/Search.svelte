@@ -1,5 +1,6 @@
 <script lang="ts">
   import resources from "../data/resources.json";
+  import SearchResult from "./SearchResult/SearchResult.svelte";
   import { cart, type Resource } from "./stores/cart";
 
   let wrapperRef: HTMLDivElement;
@@ -39,7 +40,7 @@
       {#each filteredList as resource}
         <li class="border-b border-b-base-content/10 w-full">
           <button on:click={() => handleSelect(resource)}
-            >{resource.name}</button
+            ><SearchResult {resource} /></button
           >
         </li>
       {/each}
