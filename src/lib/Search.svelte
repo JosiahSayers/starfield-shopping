@@ -1,7 +1,7 @@
 <script lang="ts">
-  import resources from "../data/resources.json";
   import SearchResult from "./SearchResult/SearchResult.svelte";
-  import { cart, type Resource } from "./stores/cart";
+  import { cart } from "./stores/cart";
+  import { resources, type Resource } from "./stores/resources";
 
   let wrapperRef: HTMLDivElement;
   let open = false;
@@ -11,7 +11,7 @@
     open = searchValue.length > 0;
   }
 
-  $: filteredList = resources.filter((resource) =>
+  $: filteredList = $resources.filter((resource) =>
     searchValue.length
       ? resource.name.toLowerCase().includes(searchValue.toLowerCase()) ||
         resource.shortName.toLowerCase().includes(searchValue.toLowerCase())

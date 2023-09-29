@@ -2,7 +2,7 @@
   import ResourcePrice from "./SearchResult/ResourcePrice.svelte";
   import ResourceRarity from "./SearchResult/ResourceRarity.svelte";
   import ResourceType from "./SearchResult/ResourceType.svelte";
-  import type { Resource } from "./stores/cart";
+  import type { Resource } from "./stores/resources";
 
   export let resource: Resource;
 </script>

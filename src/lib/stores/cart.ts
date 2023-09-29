@@ -1,8 +1,8 @@
 import { persistentStore } from "./persistent";
-import resources from '../../data/resources.json';
 import { derived } from "svelte/store";
+import resourceList from '../../data/resources.json';
+import type { Resource } from "./resources";
 
-export type Resource = typeof resources[number];
 export interface CartItem extends Resource {
   quantity: number;
 }
@@ -60,7 +60,7 @@ const createCartStore = () => {
         const validatedItems: CartItem[] = [];
         currentItems.forEach(item => {
           if (allKeys.some(key => item[key] == undefined)) {
-            const foundItem = resources.find(resource => resource.name === item.name);
+            const foundItem = resourceList.find(resource => resource.name === item.name);
             if (foundItem) {
               validatedItems.push({ ...foundItem, quantity: item.quantity || 1 });
             }

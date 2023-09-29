@@ -1,6 +1,6 @@
 <script lang="ts">
   import ResourceBadges from "../ResourceBadges.svelte";
-  import type { Resource } from "../stores/cart";
+  import type { Resource } from "../stores/resources";
 
   export let resource: Resource;
 </script>
