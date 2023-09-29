@@ -9,7 +9,7 @@
 <AppTheme />
 
 <Navbar />
-<div class="p-6">
+<div class="p-6 mx-auto max-w-3xl">
   <Search />
   <Cart />
   <CartTotal />
