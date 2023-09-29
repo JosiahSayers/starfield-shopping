@@ -7,33 +7,44 @@ export interface CartItem extends Resource {
   quantity: number;
 }
 
-const allKeys: Array<keyof Resource> = ['mass', 'name', 'rarity', 'shortName', 'type', 'value', 'valueToMass'];
+const allKeys: Array<keyof Resource> = ['mass', 'name', 'rarity', 'shortName', 'type', 'value', 'valueToMass', 'id'];
 
 const sortComparator = (a: CartItem, b: CartItem) => a.name > b.name ? 1 : -1;
 
 const createCartStore = () => {
   const { subscribe, set, update } = persistentStore<CartItem[]>({ key: 'cart', type: 'object' }, []);
+  const validate = () => {
+    update((currentItems) => {
+      const validatedItems: CartItem[] = [];
+      currentItems.forEach(item => {
+        if (allKeys.some(key => item[key] == undefined)) {
+          const foundItem = resourceList.find(resource => resource.id === item.id);
+          if (foundItem) {
+            validatedItems.push({ ...foundItem, quantity: item.quantity || 1 });
+          }
+        } else {
+          validatedItems.push(item);
+        }
+      });
+      return validatedItems.sort(sortComparator);
+    });
+  }
+
+  validate();
 
   return {
     subscribe,
+    validate,
 
     clear: () => set([]),
 
     add: (newItem: CartItem) => {
-      update((currentItems) => {
-        const inCartItemIndex = currentItems.findIndex(item => item.name === newItem.name);
-        if (inCartItemIndex >= 0) {
-          currentItems[inCartItemIndex].quantity += newItem.quantity;
-          return [...currentItems].sort(sortComparator);
-        }
-
-        return [...currentItems, newItem].sort(sortComparator);
-      });
+      update((currentItems) => ([...currentItems, newItem].sort(sortComparator)));
     },
 
-    increment: (name: string) => {
+    increment: (id: number) => {
       update((currentItems) => {
-        const inCartItemIndex = currentItems.findIndex(item => item.name === name);
+        const inCartItemIndex = currentItems.findIndex(item => item.id === id);
         if (inCartItemIndex >= 0) {
           currentItems[inCartItemIndex].quantity++;
         }
@@ -41,9 +52,9 @@ const createCartStore = () => {
       });
     },
 
-    decrement: (name: string) => {
+    decrement: (id: number) => {
       update((currentItems) => {
-        const inCartItemIndex = currentItems.findIndex(item => item.name === name);
+        const inCartItemIndex = currentItems.findIndex(item => item.id === id);
         if (inCartItemIndex >= 0) {
           currentItems[inCartItemIndex].quantity--;
 
@@ -52,23 +63,6 @@ const createCartStore = () => {
           }
         }
         return [...currentItems].sort(sortComparator);
-      });
-    },
-
-    validate: () => {
-      update((currentItems) => {
-        const validatedItems: CartItem[] = [];
-        currentItems.forEach(item => {
-          if (allKeys.some(key => item[key] == undefined)) {
-            const foundItem = resourceList.find(resource => resource.name === item.name);
-            if (foundItem) {
-              validatedItems.push({ ...foundItem, quantity: item.quantity || 1 });
-            }
-          } else {
-            validatedItems.push(item);
-          }
-        });
-        return validatedItems.sort(sortComparator);
       });
     }
   };

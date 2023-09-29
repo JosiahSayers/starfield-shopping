@@ -4,12 +4,6 @@
   import Search from "./lib/Search.svelte";
   import Cart from "./lib/Cart.svelte";
   import CartTotal from "./lib/CartTotal.svelte";
-  import { onMount } from "svelte";
-  import { cart } from "./lib/stores/cart";
-
-  onMount(() => {
-    cart.validate();
-  });
 </script>
 
 <AppTheme />

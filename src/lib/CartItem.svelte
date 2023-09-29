@@ -3,15 +3,16 @@
   import Minus from "./icons/Minus.svelte";
   import { cart, type CartItem } from "./stores/cart";
   import ResourceBadges from "./ResourceBadges.svelte";
+  import { fly, scale } from "svelte/transition";
 
   export let item: CartItem;
 
   function increment() {
-    cart.increment(item.name);
+    cart.increment(item.id);
   }
 
   function decrement() {
-    cart.decrement(item.name);
+    cart.decrement(item.id);
   }
 </script>
 
@@ -30,7 +31,9 @@
 
       <div class="counter flex flex-row items-center">
         <button class="btn btn-circle" on:click={decrement}><Minus /></button>
-        <p class="px-2">{item.quantity}</p>
+        {#key item.quantity}
+          <p class="px-2 font-bold text-lg" in:scale>{item.quantity}</p>
+        {/key}
         <button class="btn btn-circle" on:click={increment}><Plus /> </button>
       </div>
     </div>

@@ -12,6 +12,7 @@ async function scrape() {
   const dom = new JSDOM(text);
   const table = dom.window.document.querySelector('table');
   const rows = table?.querySelectorAll('tr');
+  let id = 1;
   const resources = Array.from(rows)
     .map(row => {
       const dataNodes = row.querySelectorAll('td');
@@ -25,7 +26,8 @@ async function scrape() {
         valueToMass: Number(dataNodes[6]?.textContent)
       };
     })
-    .filter(resource => Object.values(resource).some(value => !!value));
+    .filter(resource => Object.values(resource).some(value => !!value))
+    .map(resource => ({ ...resource, id: id++ }));
   await writeFile(path.join(process.cwd(), 'src', 'data', 'resources.json'), JSON.stringify(resources, null, 2), { encoding: 'utf8' });
 }
 

@@ -6,7 +6,8 @@
     "type": "Manufactured",
     "mass": 1.6,
     "value": 24,
-    "valueToMass": 15
+    "valueToMass": 15,
+    "id": 1
   },
   {
     "name": "Adhesive",
@@ -15,7 +16,8 @@
     "type": "Organic",
     "mass": 0.5,
     "value": 12,
-    "valueToMass": 24
+    "valueToMass": 24,
+    "id": 2
   },
   {
     "name": "Aldumite",
@@ -24,7 +26,8 @@
     "type": "Inorganic",
     "mass": 1.9,
     "value": 84,
-    "valueToMass": 44
+    "valueToMass": 44,
+    "id": 3
   },
   {
     "name": "Aldumite Drilling Rig",
@@ -33,7 +36,8 @@
     "type": "Manufactured",
     "mass": 7,
     "value": 421,
-    "valueToMass": 60
+    "valueToMass": 60,
+    "id": 4
   },
   {
     "name": "Alkanes",
@@ -42,7 +46,8 @@
     "type": "Inorganic",
     "mass": 0.6,
     "value": 13,
-    "valueToMass": 22
+    "valueToMass": 22,
+    "id": 5
   },
   {
     "name": "Aluminum",
@@ -51,7 +56,8 @@
     "type": "Inorganic",
     "mass": 0.5,
     "value": 7,
-    "valueToMass": 14
+    "valueToMass": 14,
+    "id": 6
   },
   {
     "name": "Amino Acids",
@@ -60,7 +66,8 @@
     "type": "Organic",
     "mass": 0.5,
     "value": 10,
-    "valueToMass": 20
+    "valueToMass": 20,
+    "id": 7
   },
   {
     "name": "Analgesic",
@@ -69,7 +76,8 @@
     "type": "Organic",
     "mass": 0.5,
     "value": 12,
-    "valueToMass": 24
+    "valueToMass": 24,
+    "id": 8
   },
   {
     "name": "Antimicrobial",
@@ -78,7 +86,8 @@
     "type": "Organic",
     "mass": 0.5,
     "value": 10,
-    "valueToMass": 20
+    "valueToMass": 20,
+    "id": 9
   },
   {
     "name": "Antimony",
@@ -87,7 +96,8 @@
     "type": "Inorganic",
     "mass": 0.8,
     "value": 30,
-    "valueToMass": 38
+    "valueToMass": 38,
+    "id": 10
   },
   {
     "name": "Aqueous Hematite",
@@ -96,7 +106,8 @@
     "type": "Inorganic",
     "mass": 1.3,
     "value": 56,
-    "valueToMass": 43
+    "valueToMass": 43,
+    "id": 11
   },
   {
     "name": "Argon",
@@ -105,7 +116,8 @@
     "type": "Inorganic",
     "mass": 0.5,
     "value": 5,
-    "valueToMass": 10
+    "valueToMass": 10,
+    "id": 12
   },
   {
     "name": "Aromatic",
@@ -114,7 +126,8 @@
     "type": "Organic",
     "mass": 0.5,
     "value": 11,
-    "valueToMass": 22
+    "valueToMass": 22,
+    "id": 13
   },
   {
     "name": "Austenitic Manifold",
@@ -123,7 +136,8 @@
     "type": "Manufactured",
     "mass": 4.3,
     "value": 79,
-    "valueToMass": 18
+    "valueToMass": 18,
+    "id": 14
   },
   {
     "name": "Benzene",
@@ -132,7 +146,8 @@
     "type": "Inorganic",
     "mass": 0.6,
     "value": 19,
-    "valueToMass": 32
+    "valueToMass": 32,
+    "id": 15
   },
   {
     "name": "Beryllium",
@@ -141,7 +156,8 @@
     "type": "Inorganic",
     "mass": 0.5,
     "value": 12,
-    "valueToMass": 24
+    "valueToMass": 24,
+    "id": 16
   },
   {
     "name": "Biosuppressant",
@@ -150,7 +166,8 @@
     "type": "Organic",
     "mass": 0.5,
     "value": 16,
-    "valueToMass": 32
+    "valueToMass": 32,
+    "id": 17
   },
   {
     "name": "Caelumite",
@@ -159,7 +176,8 @@
     "type": "Inorganic",
     "mass": 0.3,
     "value": 264,
-    "valueToMass": 880
+    "valueToMass": 880,
+    "id": 18
   },
   {
     "name": "Caesium",
@@ -168,7 +186,8 @@
     "type": "Inorganic",
     "mass": 0.8,
     "value": 25,
-    "valueToMass": 31
+    "valueToMass": 31,
+    "id": 19
   },
   {
     "name": "Carboxylic Acids",
@@ -177,7 +196,8 @@
     "type": "Inorganic",
     "mass": 0.8,
     "value": 12,
-    "valueToMass": 15
+    "valueToMass": 15,
+    "id": 20
   },
   {
     "name": "Chlorine",
@@ -186,7 +206,8 @@
     "type": "Inorganic",
     "mass": 0.5,
     "value": 6,
-    "valueToMass": 12
+    "valueToMass": 12,
+    "id": 21
   },
   {
     "name": "Chlorosilanes",
@@ -195,7 +216,8 @@
     "type": "Inorganic",
     "mass": 0.6,
     "value": 14,
-    "valueToMass": 23
+    "valueToMass": 23,
+    "id": 22
   },
   {
     "name": "Cobalt",
@@ -204,7 +226,8 @@
     "type": "Inorganic",
     "mass": 0.6,
     "value": 12,
-    "valueToMass": 20
+    "valueToMass": 20,
+    "id": 23
   },
   {
     "name": "Comm Relay",
@@ -213,7 +236,8 @@
     "type": "Manufactured",
     "mass": 3.5,
     "value": 117,
-    "valueToMass": 33
+    "valueToMass": 33,
+    "id": 24
   },
   {
     "name": "Control Rod",
@@ -222,7 +246,8 @@
     "type": "Manufactured",
     "mass": 4.5,
     "value": 180,
-    "valueToMass": 40
+    "valueToMass": 40,
+    "id": 25
   },
   {
     "name": "Copper",
@@ -231,7 +256,8 @@
     "type": "Inorganic",
     "mass": 0.6,
     "value": 10,
-    "valueToMass": 17
+    "valueToMass": 17,
+    "id": 26
   },
   {
     "name": "Cosmetic",
@@ -240,7 +266,8 @@
     "type": "Organic",
     "mass": 0.5,
     "value": 8,
-    "valueToMass": 16
+    "valueToMass": 16,
+    "id": 27
   },
   {
     "name": "Deformable Nozzle",
@@ -249,7 +276,8 @@
     "type": "Manufactured",
     "mass": 0,
     "value": 0,
-    "valueToMass": 0
+    "valueToMass": 0,
+    "id": 28
   },
   {
     "name": "Drilling Rig",
@@ -258,7 +286,8 @@
     "type": "Manufactured",
     "mass": 5,
     "value": 143,
-    "valueToMass": 29
+    "valueToMass": 29,
+    "id": 29
   },
   {
     "name": "Dysprosium",
@@ -267,7 +296,8 @@
     "type": "Inorganic",
     "mass": 1.4,
     "value": 56,
-    "valueToMass": 40
+    "valueToMass": 40,
+    "id": 30
   },
   {
     "name": "Electron Pump",
@@ -276,7 +306,8 @@
     "type": "Manufactured",
     "mass": 0,
     "value": 0,
-    "valueToMass": 0
+    "valueToMass": 0,
+    "id": 31
   },
   {
     "name": "Europium",
@@ -285,7 +316,8 @@
     "type": "Inorganic",
     "mass": 1,
     "value": 40,
-    "valueToMass": 40
+    "valueToMass": 40,
+    "id": 32
   },
   {
     "name": "Fiber",
@@ -294,7 +326,8 @@
     "type": "Organic",
     "mass": 0.5,
     "value": 4,
-    "valueToMass": 8
+    "valueToMass": 8,
+    "id": 33
   },
   {
     "name": "Fluorine",
@@ -303,7 +336,8 @@
     "type": "Inorganic",
     "mass": 0.5,
     "value": 12,
-    "valueToMass": 24
+    "valueToMass": 24,
+    "id": 34
   },
   {
     "name": "Gastronomic Delight",
@@ -312,7 +346,8 @@
     "type": "Organic",
     "mass": 1.5,
     "value": 66,
-    "valueToMass": 44
+    "valueToMass": 44,
+    "id": 35
   },
   {
     "name": "Gold",
@@ -321,7 +356,8 @@
     "type": "Inorganic",
     "mass": 0.8,
     "value": 24,
-    "valueToMass": 30
+    "valueToMass": 30,
+    "id": 36
   },
   {
     "name": "Gravitic Laminate",
@@ -330,7 +366,8 @@
     "type": "Manufactured",
     "mass": 0,
     "value": 0,
-    "valueToMass": 0
+    "valueToMass": 0,
+    "id": 37
   },
   {
     "name": "Gravity Inducer",
@@ -339,7 +376,8 @@
     "type": "Manufactured",
     "mass": 0,
     "value": 0,
-    "valueToMass": 0
+    "valueToMass": 0,
+    "id": 38
   },
   {
     "name": "Hallucinogen",
@@ -348,7 +386,8 @@
     "type": "Organic",
     "mass": 0.5,
     "value": 14,
-    "valueToMass": 28
+    "valueToMass": 28,
+    "id": 39
   },
   {
     "name": "Helical Equalizer",
@@ -357,7 +396,8 @@
     "type": "Manufactured",
     "mass": 0,
     "value": 0,
-    "valueToMass": 0
+    "valueToMass": 0,
+    "id": 40
   },
   {
     "name": "Helium-3",
@@ -366,7 +406,8 @@
     "type": "Inorganic",
     "mass": 0.3,
     "value": 14,
-    "valueToMass": 47
+    "valueToMass": 47,
+    "id": 41
   },
   {
     "name": "High-Tensile Spidroin",
@@ -375,7 +416,8 @@
     "type": "Organic",
     "mass": 1.3,
     "value": 62,
-    "valueToMass": 48
+    "valueToMass": 48,
+    "id": 42
   },
   {
     "name": "Hypercatalyst",
@@ -384,7 +426,8 @@
     "type": "Organic",
     "mass": 0.5,
     "value": 18,
-    "valueToMass": 36
+    "valueToMass": 36,
+    "id": 43
   },
   {
     "name": "Immunostimulant",
@@ -393,7 +436,8 @@
     "type": "Organic",
     "mass": 1.3,
     "value": 58,
-    "valueToMass": 45
+    "valueToMass": 45,
+    "id": 44
   },
   {
     "name": "Indicite",
@@ -402,7 +446,8 @@
     "type": "Inorganic",
     "mass": 2.3,
     "value": 108,
-    "valueToMass": 47
+    "valueToMass": 47,
+    "id": 45
   },
   {
     "name": "Indicite Wafer",
@@ -411,7 +456,8 @@
     "type": "Manufactured",
     "mass": 4,
     "value": 243,
-    "valueToMass": 61
+    "valueToMass": 61,
+    "id": 46
   },
   {
     "name": "Ionic Liquids",
@@ -420,7 +466,8 @@
     "type": "Inorganic",
     "mass": 0.8,
     "value": 23,
-    "valueToMass": 29
+    "valueToMass": 29,
+    "id": 47
   },
   {
     "name": "Iridium",
@@ -429,7 +476,8 @@
     "type": "Inorganic",
     "mass": 0.7,
     "value": 14,
-    "valueToMass": 20
+    "valueToMass": 20,
+    "id": 48
   },
   {
     "name": "Iron",
@@ -438,7 +486,8 @@
     "type": "Inorganic",
     "mass": 0.6,
     "value": 8,
-    "valueToMass": 13
+    "valueToMass": 13,
+    "id": 49
   },
   {
     "name": "Isocentered Magnet",
@@ -447,7 +496,8 @@
     "type": "Manufactured",
     "mass": 1.8,
     "value": 36,
-    "valueToMass": 20
+    "valueToMass": 20,
+    "id": 50
   },
   {
     "name": "Isotopic Coolant",
@@ -456,7 +506,8 @@
     "type": "Manufactured",
     "mass": 0.8,
     "value": 25,
-    "valueToMass": 31
+    "valueToMass": 31,
+    "id": 51
   },
   {
     "name": "Lead",
@@ -465,7 +516,8 @@
     "type": "Inorganic",
     "mass": 0.7,
     "value": 10,
-    "valueToMass": 14
+    "valueToMass": 14,
+    "id": 52
   },
   {
     "name": "Lithium",
@@ -474,7 +526,8 @@
     "type": "Inorganic",
     "mass": 0.5,
     "value": 14,
-    "valueToMass": 28
+    "valueToMass": 28,
+    "id": 53
   },
   {
     "name": "Lubricant",
@@ -483,7 +536,8 @@
     "type": "Organic",
     "mass": 0.5,
     "value": 18,
-    "valueToMass": 36
+    "valueToMass": 36,
+    "id": 54
   },
   {
     "name": "Luxury Textile",
@@ -492,7 +546,8 @@
     "type": "Organic",
     "mass": 1.5,
     "value": 58,
-    "valueToMass": 39
+    "valueToMass": 39,
+    "id": 55
   },
   {
     "name": "Mag Pressure Tank",
@@ -501,7 +556,8 @@
     "type": "Manufactured",
     "mass": 1.5,
     "value": 25,
-    "valueToMass": 17
+    "valueToMass": 17,
+    "id": 56
   },
   {
     "name": "Membrane",
@@ -510,7 +566,8 @@
     "type": "Organic",
     "mass": 0.5,
     "value": 9,
-    "valueToMass": 18
+    "valueToMass": 18,
+    "id": 57
   },
   {
     "name": "Memory Substrate",
@@ -519,7 +576,8 @@
     "type": "Organic",
     "mass": 1.4,
     "value": 65,
-    "valueToMass": 46
+    "valueToMass": 46,
+    "id": 58
   },
   {
     "name": "Mercury",
@@ -528,7 +586,8 @@
     "type": "Inorganic",
     "mass": 0.8,
     "value": 22,
-    "valueToMass": 28
+    "valueToMass": 28,
+    "id": 59
   },
   {
     "name": "Metabolic Agent",
@@ -537,7 +596,8 @@
     "type": "Organic",
     "mass": 0.5,
     "value": 9,
-    "valueToMass": 18
+    "valueToMass": 18,
+    "id": 60
   },
   {
     "name": "Microsecond Regulator",
@@ -546,7 +606,8 @@
     "type": "Manufactured",
     "mass": 4.3,
     "value": 212,
-    "valueToMass": 49
+    "valueToMass": 49,
+    "id": 61
   },
   {
     "name": "Molecular Sieve",
@@ -555,7 +616,8 @@
     "type": "Manufactured",
     "mass": 3,
     "value": 91,
-    "valueToMass": 30
+    "valueToMass": 30,
+    "id": 62
   },
   {
     "name": "Monopropellant",
@@ -564,7 +626,8 @@
     "type": "Manufactured",
     "mass": 3.5,
     "value": 76,
-    "valueToMass": 22
+    "valueToMass": 22,
+    "id": 63
   },
   {
     "name": "Neodymium",
@@ -573,7 +636,8 @@
     "type": "Inorganic",
     "mass": 0.8,
     "value": 20,
-    "valueToMass": 25
+    "valueToMass": 25,
+    "id": 64
   },
   {
     "name": "Neon",
@@ -582,7 +646,8 @@
     "type": "Inorganic",
     "mass": 0.5,
     "value": 16,
-    "valueToMass": 32
+    "valueToMass": 32,
+    "id": 65
   },
   {
     "name": "Neurologic",
@@ -591,7 +656,8 @@
     "type": "Organic",
     "mass": 1.4,
     "value": 67,
-    "valueToMass": 48
+    "valueToMass": 48,
+    "id": 66
   },
   {
     "name": "Neutral Capacitor",
@@ -600,7 +666,8 @@
     "type": "Manufactured",
     "mass": 0,
     "value": 0,
-    "valueToMass": 0
+    "valueToMass": 0,
+    "id": 67
   },
   {
     "name": "Nickel",
@@ -609,7 +676,8 @@
     "type": "Inorganic",
     "mass": 0.6,
     "value": 10,
-    "valueToMass": 17
+    "valueToMass": 17,
+    "id": 68
   },
   {
     "name": "Nuclear Fuel Rod",
@@ -618,7 +686,8 @@
     "type": "Manufactured",
     "mass": 5,
     "value": 225,
-    "valueToMass": 45
+    "valueToMass": 45,
+    "id": 69
   },
   {
     "name": "Nutrient",
@@ -627,7 +696,8 @@
     "type": "Organic",
     "mass": 0.5,
     "value": 5,
-    "valueToMass": 10
+    "valueToMass": 10,
+    "id": 70
   },
   {
     "name": "Ornamental Material",
@@ -636,7 +706,8 @@
     "type": "Organic",
     "mass": 0.5,
     "value": 11,
-    "valueToMass": 22
+    "valueToMass": 22,
+    "id": 71
   },
   {
     "name": "Palladium",
@@ -645,7 +716,8 @@
     "type": "Inorganic",
     "mass": 0.7,
     "value": 25,
-    "valueToMass": 36
+    "valueToMass": 36,
+    "id": 72
   },
   {
     "name": "Paramagnon Conductor",
@@ -654,7 +726,8 @@
     "type": "Manufactured",
     "mass": 4,
     "value": 153,
-    "valueToMass": 38
+    "valueToMass": 38,
+    "id": 73
   },
   {
     "name": "Pigment",
@@ -663,7 +736,8 @@
     "type": "Organic",
     "mass": 0.5,
     "value": 10,
-    "valueToMass": 20
+    "valueToMass": 20,
+    "id": 74
   },
   {
     "name": "Plasma Igniter",
@@ -672,7 +746,8 @@
     "type": "Manufactured",
     "mass": 0,
     "value": 0,
-    "valueToMass": 0
+    "valueToMass": 0,
+    "id": 75
   },
   {
     "name": "Platinum",
@@ -681,7 +756,8 @@
     "type": "Inorganic",
     "mass": 0.8,
     "value": 24,
-    "valueToMass": 30
+    "valueToMass": 30,
+    "id": 76
   },
   {
     "name": "Plutonium",
@@ -690,7 +766,8 @@
     "type": "Inorganic",
     "mass": 1.6,
     "value": 64,
-    "valueToMass": 40
+    "valueToMass": 40,
+    "id": 77
   },
   {
     "name": "Polymer",
@@ -699,7 +776,8 @@
     "type": "Organic",
     "mass": 0.5,
     "value": 20,
-    "valueToMass": 40
+    "valueToMass": 40,
+    "id": 78
   },
   {
     "name": "Polytextile",
@@ -708,7 +786,8 @@
     "type": "Manufactured",
     "mass": 2,
     "value": 25,
-    "valueToMass": 13
+    "valueToMass": 13,
+    "id": 79
   },
   {
     "name": "Positron Battery",
@@ -717,7 +796,8 @@
     "type": "Manufactured",
     "mass": 3,
     "value": 133,
-    "valueToMass": 44
+    "valueToMass": 44,
+    "id": 80
   },
   {
     "name": "Power Circuit",
@@ -726,7 +806,8 @@
     "type": "Manufactured",
     "mass": 3.8,
     "value": 195,
-    "valueToMass": 51
+    "valueToMass": 51,
+    "id": 81
   },
   {
     "name": "Quark-Degenerate Tissues",
@@ -735,7 +816,8 @@
     "type": "Organic",
     "mass": 0.3,
     "value": 240,
-    "valueToMass": 800
+    "valueToMass": 800,
+    "id": 82
   },
   {
     "name": "Quasi-neutralizer",
@@ -744,7 +826,8 @@
     "type": "Manufactured",
     "mass": 0,
     "value": 0,
-    "valueToMass": 0
+    "valueToMass": 0,
+    "id": 83
   },
   {
     "name": "Reactive Gauge",
@@ -753,7 +836,8 @@
     "type": "Manufactured",
     "mass": 1.5,
     "value": 25,
-    "valueToMass": 17
+    "valueToMass": 17,
+    "id": 84
   },
   {
     "name": "Regenerative Illuminator",
@@ -762,7 +846,8 @@
     "type": "Manufactured",
     "mass": 0,
     "value": 0,
-    "valueToMass": 0
+    "valueToMass": 0,
+    "id": 85
   },
   {
     "name": "Rothicite",
@@ -771,7 +856,8 @@
     "type": "Inorganic",
     "mass": 2.2,
     "value": 106,
-    "valueToMass": 48
+    "valueToMass": 48,
+    "id": 86
   },
   {
     "name": "Rothicite Magnet",
@@ -780,7 +866,8 @@
     "type": "Manufactured",
     "mass": 4.6,
     "value": 295,
-    "valueToMass": 64
+    "valueToMass": 64,
+    "id": 87
   },
   {
     "name": "Sealant",
@@ -789,7 +876,8 @@
     "type": "Organic",
     "mass": 0.5,
     "value": 6,
-    "valueToMass": 12
+    "valueToMass": 12,
+    "id": 88
   },
   {
     "name": "Sedative",
@@ -798,7 +886,8 @@
     "type": "Organic",
     "mass": 0.5,
     "value": 12,
-    "valueToMass": 24
+    "valueToMass": 24,
+    "id": 89
   },
   {
     "name": "Semimetal Wafer",
@@ -807,7 +896,8 @@
     "type": "Manufactured",
     "mass": 3.5,
     "value": 149,
-    "valueToMass": 43
+    "valueToMass": 43,
+    "id": 90
   },
   {
     "name": "Silver",
@@ -816,7 +906,8 @@
     "type": "Inorganic",
     "mass": 0.6,
     "value": 20,
-    "valueToMass": 33
+    "valueToMass": 33,
+    "id": 91
   },
   {
     "name": "Solvent",
@@ -825,7 +916,8 @@
     "type": "Organic",
     "mass": 0.5,
     "value": 19,
-    "valueToMass": 38
+    "valueToMass": 38,
+    "id": 92
   },
   {
     "name": "Spice",
@@ -834,7 +926,8 @@
     "type": "Organic",
     "mass": 0.5,
     "value": 11,
-    "valueToMass": 22
+    "valueToMass": 22,
+    "id": 93
   },
   {
     "name": "Sterile Nanotubes",
@@ -843,7 +936,8 @@
     "type": "Manufactured",
     "mass": 3,
     "value": 130,
-    "valueToMass": 43
+    "valueToMass": 43,
+    "id": 94
   },
   {
     "name": "Stimulant",
@@ -852,7 +946,8 @@
     "type": "Organic",
     "mass": 0.5,
     "value": 20,
-    "valueToMass": 40
+    "valueToMass": 40,
+    "id": 95
   },
   {
     "name": "Stimulated Shielding",
@@ -861,7 +956,8 @@
     "type": "Manufactured",
     "mass": 0,
     "value": 0,
-    "valueToMass": 0
+    "valueToMass": 0,
+    "id": 96
   },
   {
     "name": "Stochastic Emitter",
@@ -870,7 +966,8 @@
     "type": "Manufactured",
     "mass": 0,
     "value": 0,
-    "valueToMass": 0
+    "valueToMass": 0,
+    "id": 97
   },
   {
     "name": "Structural Material",
@@ -879,7 +976,8 @@
     "type": "Organic",
     "mass": 0.5,
     "value": 7,
-    "valueToMass": 14
+    "valueToMass": 14,
+    "id": 98
   },
   {
     "name": "Substrate Molecule Sieve",
@@ -888,7 +986,8 @@
     "type": "Manufactured",
     "mass": 4.5,
     "value": 274,
-    "valueToMass": 61
+    "valueToMass": 61,
+    "id": 99
   },
   {
     "name": "Supercooled Magnet",
@@ -897,7 +996,8 @@
     "type": "Manufactured",
     "mass": 3.2,
     "value": 111,
-    "valueToMass": 35
+    "valueToMass": 35,
+    "id": 100
   },
   {
     "name": "Tantalum",
@@ -906,7 +1006,8 @@
     "type": "Inorganic",
     "mass": 0.9,
     "value": 23,
-    "valueToMass": 26
+    "valueToMass": 26,
+    "id": 101
   },
   {
     "name": "Tasine",
@@ -915,7 +1016,8 @@
     "type": "Inorganic",
     "mass": 1.2,
     "value": 52,
-    "valueToMass": 43
+    "valueToMass": 43,
+    "id": 102
   },
   {
     "name": "Tasine Superconductor",
@@ -924,7 +1026,8 @@
     "type": "Manufactured",
     "mass": 5,
     "value": 299,
-    "valueToMass": 60
+    "valueToMass": 60,
+    "id": 103
   },
   {
     "name": "Tau Grade Rheostat",
@@ -933,7 +1036,8 @@
     "type": "Manufactured",
     "mass": 2.6,
     "value": 82,
-    "valueToMass": 32
+    "valueToMass": 32,
+    "id": 104
   },
   {
     "name": "Tetrafluorides",
@@ -942,7 +1046,8 @@
     "type": "Inorganic",
     "mass": 0.7,
     "value": 18,
-    "valueToMass": 26
+    "valueToMass": 26,
+    "id": 105
   },
   {
     "name": "Thread-Logic Circuit",
@@ -951,7 +1056,8 @@
     "type": "Manufactured",
     "mass": 0,
     "value": 0,
-    "valueToMass": 0
+    "valueToMass": 0,
+    "id": 106
   },
   {
     "name": "Titanium",
@@ -960,7 +1066,8 @@
     "type": "Inorganic",
     "mass": 0.5,
     "value": 12,
-    "valueToMass": 24
+    "valueToMass": 24,
+    "id": 107
   },
   {
     "name": "Toxin",
@@ -969,7 +1076,8 @@
     "type": "Organic",
     "mass": 0.5,
     "value": 8,
-    "valueToMass": 16
+    "valueToMass": 16,
+    "id": 108
   },
   {
     "name": "Tungsten",
@@ -978,7 +1086,8 @@
     "type": "Inorganic",
     "mass": 0.7,
     "value": 16,
-    "valueToMass": 23
+    "valueToMass": 23,
+    "id": 109
   },
   {
     "name": "Uranium",
@@ -987,7 +1096,8 @@
     "type": "Inorganic",
     "mass": 0.7,
     "value": 14,
-    "valueToMass": 20
+    "valueToMass": 20,
+    "id": 110
   },
   {
     "name": "Vac Grade Explosive",
@@ -996,7 +1106,8 @@
     "type": "Manufactured",
     "mass": 3,
     "value": 240,
-    "valueToMass": 80
+    "valueToMass": 80,
+    "id": 111
   },
   {
     "name": "Vanadium",
@@ -1005,7 +1116,8 @@
     "type": "Inorganic",
     "mass": 0.7,
     "value": 24,
-    "valueToMass": 34
+    "valueToMass": 34,
+    "id": 112
   },
   {
     "name": "Veryl",
@@ -1014,7 +1126,8 @@
     "type": "Inorganic",
     "mass": 0.9,
     "value": 40,
-    "valueToMass": 44
+    "valueToMass": 44,
+    "id": 113
   },
   {
     "name": "Veryl Explosive",
@@ -1023,7 +1136,8 @@
     "type": "Manufactured",
     "mass": 4.25,
     "value": 820,
-    "valueToMass": 193
+    "valueToMass": 193,
+    "id": 114
   },
   {
     "name": "Veryl-Treated manifold",
@@ -1032,7 +1146,8 @@
     "type": "Manufactured",
     "mass": 5.4,
     "value": 295,
-    "valueToMass": 55
+    "valueToMass": 55,
+    "id": 115
   },
   {
     "name": "Vytinium",
@@ -1041,7 +1156,8 @@
     "type": "Inorganic",
     "mass": 2.5,
     "value": 116,
-    "valueToMass": 46
+    "valueToMass": 46,
+    "id": 116
   },
   {
     "name": "Vytinium Fuel Rod",
@@ -1050,7 +1166,8 @@
     "type": "Manufactured",
     "mass": 11,
     "value": 836,
-    "valueToMass": 76
+    "valueToMass": 76,
+    "id": 117
   },
   {
     "name": "Water",
@@ -1059,7 +1176,8 @@
     "type": "Inorganic",
     "mass": 0.5,
     "value": 4,
-    "valueToMass": 8
+    "valueToMass": 8,
+    "id": 118
   },
   {
     "name": "Xenon",
@@ -1068,7 +1186,8 @@
     "type": "Inorganic",
     "mass": 0.8,
     "value": 27,
-    "valueToMass": 34
+    "valueToMass": 34,
+    "id": 119
   },
   {
     "name": "Ytterbium",
@@ -1077,7 +1196,8 @@
     "type": "Inorganic",
     "mass": 1.2,
     "value": 38,
-    "valueToMass": 32
+    "valueToMass": 32,
+    "id": 120
   },
   {
     "name": "Zero Wire",
@@ -1086,7 +1206,8 @@
     "type": "Manufactured",
     "mass": 1.7,
     "value": 52,
-    "valueToMass": 31
+    "valueToMass": 31,
+    "id": 121
   },
   {
     "name": "Zero-G Gimbal",
@@ -1095,6 +1216,7 @@
     "type": "Manufactured",
     "mass": 2.8,
     "value": 93,
-    "valueToMass": 33
+    "valueToMass": 33,
+    "id": 122
   }
 ]
