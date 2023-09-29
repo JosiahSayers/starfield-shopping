@@ -9,6 +9,8 @@ export interface CartItem extends Resource {
 
 const allKeys: Array<keyof Resource> = ['mass', 'name', 'rarity', 'shortName', 'type', 'value', 'valueToMass'];
 
+const sortComparator = (a: CartItem, b: CartItem) => a.name > b.name ? 1 : -1;
+
 const createCartStore = () => {
   const { subscribe, set, update } = persistentStore<CartItem[]>({ key: 'cart', type: 'object' }, []);
 
@@ -22,10 +24,10 @@ const createCartStore = () => {
         const inCartItemIndex = currentItems.findIndex(item => item.name === newItem.name);
         if (inCartItemIndex >= 0) {
           currentItems[inCartItemIndex].quantity += newItem.quantity;
-          return [...currentItems];
+          return [...currentItems].sort(sortComparator);
         }
 
-        return [...currentItems, newItem];
+        return [...currentItems, newItem].sort(sortComparator);
       });
     },
 
@@ -35,7 +37,7 @@ const createCartStore = () => {
         if (inCartItemIndex >= 0) {
           currentItems[inCartItemIndex].quantity++;
         }
-        return [...currentItems];
+        return [...currentItems].sort(sortComparator);
       });
     },
 
@@ -47,10 +49,9 @@ const createCartStore = () => {
 
           if (currentItems[inCartItemIndex].quantity < 1) {
             currentItems.splice(inCartItemIndex, 1);
-            return [...currentItems];
           }
         }
-        return [...currentItems];
+        return [...currentItems].sort(sortComparator);
       });
     },
 
@@ -67,8 +68,8 @@ const createCartStore = () => {
             validatedItems.push(item);
           }
         });
-        return validatedItems;
-      })
+        return validatedItems.sort(sortComparator);
+      });
     }
   };
 }
