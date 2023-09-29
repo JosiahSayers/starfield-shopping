@@ -2,6 +2,7 @@ import logger from 'sidelog-client';
 import { v4 as uuid } from 'uuid';
 
 const clientUuid = localStorage.getItem('client-id') || uuid();
+localStorage.setItem('client-id', clientUuid);
 
 logger.setConfig({
   sidelogUrl: "https://sidelog.sayerscloud.com",
