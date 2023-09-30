@@ -3,7 +3,7 @@
   import Minus from "./icons/Minus.svelte";
   import { cart, type CartItem } from "./stores/cart";
   import ResourceBadges from "./ResourceBadges.svelte";
-  import { fly, scale } from "svelte/transition";
+  import { scale } from "svelte/transition";
 
   export let item: CartItem;
 

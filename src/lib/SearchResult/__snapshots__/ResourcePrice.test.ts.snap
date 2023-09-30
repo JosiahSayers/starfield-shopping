@@ -1,0 +1,3 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ResourcePrice > mounts 1`] = `"<div><span class=\\"badge badge-neutral m-1\\"><img src=\\"/src/assets/credit.png\\" alt=\\"starfield credit logo\\" class=\\"h-4\\">0</span></div>"`;
